@@ -45,7 +45,7 @@ git add .
 echo "v7" > version
 ```
 
-### Tarkista tilane
+### Tarkista tilanne
 
 Tarkista `version` -tiedoston sisältö:
 ```
