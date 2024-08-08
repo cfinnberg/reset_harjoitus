@@ -85,8 +85,8 @@ git reset --soft HEAD^
 ```
 
 Ja tarkista tilanne niillä komennoilla, mitä nähtiin aikaisemmin:
-- Tiedoston sisältö on "v7"
-- Staging -alueen sisältö on "v6"
+- Työtilan tiedoston sisältö on "v7"
+- Staging -alueen tiedoston sisältö on "v6"
 - HEAD viittaa "v4" -committiin
 
 ### Palauta vanha versio `--mixed` parametrilla
@@ -97,7 +97,7 @@ git reset --mixed HEAD^
 ```
 
 Ja tarkista tilanne niillä komennoilla, mitä nähtiin aikaisemmin:
-- Tiedoston sisältö on "v7"
+- Työtilan tiedoston sisältö on "v7"
 - Staging -alueen on tyhjä
 - HEAD viittaa "v3" -committiin
 
@@ -109,6 +109,6 @@ git reset --hard HEAD^
 ```
 
 Ja tarkista tilanne niillä komennoilla, mitä nähtiin aikaisemmin:
-- Tiedoston sisältö on "v2"
+- Työtilan tiedoston sisältö on "v2"
 - Staging -alueen on tyhjä
 - HEAD viittaa "v2" -committiin
